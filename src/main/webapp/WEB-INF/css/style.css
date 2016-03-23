@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+@font-face{
+	font-family:'Glyphicons Halflings';
+	src:url("http://localhost:8080/banking/fonts/glyphicons-halflings-regular.ttf") format("truetype"),
+	url("http://localhost:8080/banking/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg")
+}
+
+.narrow {
+	max-width: 330px;
+}
+form {
+	padding: 15px 15px 15px 15px;
+}
+.container {
+	max-width: 730px;
+}
+
+input[type="checkbox"] {
+	margin-right: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+	margin-top: 15px;
+	margin-right: 10px;
+}
